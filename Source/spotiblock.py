@@ -1,27 +1,34 @@
-import os
-import tkinter as tk
-from tkinter import ttk
+import subprocess, sys, os, shutil, tkinter
+from tkinter import *
 from tkinter.messagebox import showinfo
+
+class Spotiblock(Frame):
+    def __init__(self, master=None):
+        Frame.__init__(self,master)
+        self.pack()
+
+root = Tk()
+root.geometry("700x300+300+300")
+root.title("Spotiblock v1")
 
 def block():
     os.startfile("lib\\spotiblock.bat")
     showinfo("Success!", "Spotify Ads blocked! Please Restart Spotify")
-class Spotiblock(ttk.Frame):
 
-    def __init__(self, master):
-        ttk.Frame.__init__(self, master)
-        self.pack()
+def exit():
+    global root
+    root.quit()
 
-        self.button_bonus = ttk.Button(self, text="Block Spotify Ads", command=block)
-        self.button_bonus.pack()
+L = Label(root, anchor=NE, text="Spotiblock v1")
+L.pack()
+L2 = Label(root, text="Made by VincentXII")
+L2.pack()
 
-        #self.button_showinfo = ttk.Button(self, text="Info", command=popup_showinfo)
-        #self.button_showinfo.pack()
+block = Button(root, text="Block Spotify Ads", command=block)
+block.pack(fill=BOTH) 
 
-root = tk.Tk()
-root.geometry("700x300+300+300")
-root.title("Spotiblock v0.1")
+exit = Button(root, text="Exit", command=exit)
+exit.pack(fill=BOTH)
 
-app = Spotiblock(root)
+mainloop()
 
-root.mainloop()
