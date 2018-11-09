@@ -9,7 +9,7 @@ class Spotiblock(Frame):
 
 root = Tk()
 root.geometry("700x300+300+300")
-root.title("Spotiblock v1")
+root.title("Spotiblock v1.0")
 
 def block():
     os.startfile("lib\\spotiblock.bat")
@@ -19,7 +19,7 @@ def exit():
     global root
     root.quit()
 
-L = Label(root, anchor=NE, text="Spotiblock v1")
+L = Label(root, anchor=NE, text="Spotiblock v1.0")
 L.pack()
 L2 = Label(root, text="Made by VincentXII")
 L2.pack()
