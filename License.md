@@ -34,23 +34,27 @@
                           "(the) Program" refers to any work that is/can be copyrighted under this license.
 
                           "Modification" refers to changing of the work that was not originally part of it. 
-                          This could be to force the work to behave in a way it wasn't designed too or to bypass a law/rule.
+                          This could be to force the work to behave in a way it wasn't designed too or to 
+                          bypass a law/rule.
 
-                          "You or Your" refers to the entity/company reading this License and/or the creator of a program
+                          "You or Your" refers to the entity/company reading this License and/or the creator 
+                          of a program
 
-                          "Source Code" refers to the full codebase of a program that can be compiled into said program.
+                          "Source Code" refers to the full codebase of a program that can be compiled into 
+                          said program.
 
-                          "Distribution" refers to distributing a program of which you are the owner of in compiled form 
-                          or source code form.
+                          "Distribution" refers to distributing a program of which you are the owner of in 
+                          compiled form or source code form.
 
-                          "Redistribution" refers to distributing a program of which you are not the owner of whether it be 
-                          in compiled form or source code form.
+                          "Redistribution" refers to distributing a program of which you are not the owner of 
+                          whether it be in compiled form or source code form.
 
                                                         2. License
 
-                          You may copy and distribute this license in its ORIGINAL state but You may NOT distribute this license 
-                          under payment for viewing or usage privileges. Viewing and copyrighting a program under the Vincent 
-                          General License is completely free and is only subject to the terms and conditions stated in the license.
+                          You may copy and distribute this license in its ORIGINAL state but You may NOT distribute 
+                          this license under payment for viewing or usage privileges. Viewing and copyrighting a program 
+                          under the Vincent General License is completely free and is only subject to the terms and 
+                          conditions stated in the license.
 
                                                         3. Source Code
 
@@ -70,8 +74,8 @@
                           Whether you choose to redistribute a program licensed under this license on a chat platform or 
                           your own personal website (anywhere on the internet differing from the original living page of 
                           the program) you MUST make reference back to the original author and cannot make claim that you 
-                          are the owner/creator of the program. You also must also note if you have modified the redistributed 
-                          code.
+                          are the owner/creator of the program. You also must also note if you have modified the 
+                          redistributed code.
 
                                                          6. Forked Programs
 
