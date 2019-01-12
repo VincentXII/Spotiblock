@@ -79,9 +79,9 @@
 
                                                          6. Forked Programs
 
-                           The Vincent General License allows forking of programs ONLY IF the fork of the program is placed 
-                           under the same license.
-
+                           The Vincent General License allows forking of programs ONLY IF the fork of the program is 
+                           placed under the same license.
+                           
                                   1. a) If You update a program that was previously under another license/no license and 
                                   the version forked includes the old license, then it becomes the responsibility of You 
                                   to release a new version of said program that is compliant with this License.
