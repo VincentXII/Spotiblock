@@ -10,9 +10,14 @@ def block():
 
 def reset():
     subprocess.call([r'lib\\reset.bat'])
+    note_alert("Spotify Blocking Reset", "Ok")
 
 def download():
 	webbrowser.open_new_tab('https://www.repo.vincentxii.us/spotiblock/spotify.exe')
+
+def blockupdate():
+	subprocess.call([r'lib\\blockupdate.bat'])
+	note_alert("Spotify Updates Blocked", "Ok")
 
 def exit():
     os._exit(0)
@@ -24,6 +29,7 @@ spotibuttons = [
     Button("Run", action = block),
     Button("Revert Spotiblock", action = reset),
     Button("Download Correct Spotify Version", action = download),
+    Button("Block Spotify Updates", action = blockupdate),
     Button("Exit", action = exit),
 ]
 

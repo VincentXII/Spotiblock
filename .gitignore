@@ -1,2 +1,8 @@
 
 Source/__pycache__/
+
+*.zip
+
+build/spotiblock/spotiblock\.exe\.manifest
+
+*.spec
